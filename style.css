@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+
+.background-image{
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first-img{
+    background-image: url(images/library.jpg);
+    height: 90vh;
+
+}
+
+#first-img h1{
+    background-color: rgb(250, 235, 216);
+    font-family: 'Hind Siliguri', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#second-img {
+    background-image: url(images/backs-books.jpg);
+    height: 30vh;
+}
+
+#third-img {
+    background-image: url(images/open-books.jpg);
+    height: 30vh;
+}
+
+#fourth-img {
+    background-image: url(images/library.jpg);
+    height: 90vh;
+}
+
+.filler-text {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(238, 231, 223);
+}
+
+.background-image h2 {
+    background-color: rgb(46, 34, 19);
+    padding: 5px 20px;
+    color: antiquewhite;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#fourth-image h2 {
+    background-color: antiquewhite;
+    color: black;
+}
